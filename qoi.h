@@ -63,7 +63,7 @@ bool QoiEncode(uint32_t width, uint32_t height, uint8_t channels, uint8_t colors
     memset(history, 0, sizeof(history));
 
     uint8_t r, g, b, a;
-    a = 255u;
+    r = 0u; g = 0u; b = 0u; a = 255u;
     uint8_t pre_r, pre_g, pre_b, pre_a;
     pre_r = 0u;
     pre_g = 0u;
